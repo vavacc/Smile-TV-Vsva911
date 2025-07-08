@@ -202,8 +202,9 @@ const API_SITES = {
         name: 'iKun资源'
     },
      jkun: {
-         api: 'https://jkunzyapi.com',
-         name: 'jkun资源'
+         api: 'https://jkunzyapi.com/api.php/provide/vod',
+         name: 'jkun资源',
+         detail: 'https://jkunzyapi.com'
      },
      bwzy: {
          api: 'https://api.bwzym3u8.com',
@@ -211,7 +212,8 @@ const API_SITES = {
      },
      souav: {
          api: 'https://api.souavzy.vip/api.php/provide/vod',
-         name: 'souav资源'
+         name: 'souav资源',
+         detail: 'https://hsckzy.vip'
      },
      r155: {
          api: 'https://155api.com',
@@ -222,13 +224,14 @@ const API_SITES = {
          name: 'lsb资源'
      },
      huangcang: {
-         api: 'https://hsckzy.vip',
+         api: 'https://hsckzy888.com/api.php/provide/vod',
          name: '黄色仓库',
          detail: 'https://hsckzy.vip'
      },
      yutu: {
-         api: 'https://yutuzy10.com',
+         api: 'https://apiyutu.com/api.php/provide/vod',
          name: '玉兔资源',
+         detail: 'https://yutuzy10.com'
     },    
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
