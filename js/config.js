@@ -44,7 +44,7 @@ const API_SITES = {
         name: '天涯资源',
     },
     xiaomaomi: {
-         api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+         api: 'http://zy.xmm.hk/api.php/provide/vod',
          name: '小猫咪资源',
     },
     ffzy: {
@@ -107,7 +107,8 @@ const API_SITES = {
     },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
-        name: '量子资源'
+        name: '量子资源',
+        detail: 'https://lzizy.net'
     },
     guangsu: {
         api: 'https://api.guangsuapi.com/api.php/provide/vod',
@@ -148,7 +149,8 @@ const API_SITES = {
     },
     niuniuzy: {
         api: 'https://api.niuniuzy.me/api.php/provide/vod',
-        name: '牛牛资源'
+        name: '牛牛资源',
+        detail: 'https://niuniuzy5.com/'
     },
     jyzy: {
         api: 'https://jyzyapi.com/provide/vod',
@@ -165,7 +167,8 @@ const API_SITES = {
     },
     suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod',
-        name: '索尼资源'
+        name: '索尼资源',
+        detail: 'https://suonizy.net'
     },
     huya: {
         api: 'https://www.huyaapi.com/api.php/provide/vod',
