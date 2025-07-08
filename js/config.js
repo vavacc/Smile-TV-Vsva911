@@ -159,8 +159,8 @@ const API_SITES = {
         api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
         name: '快车资源'
     },
-    ukubf: {
-        api: 'https://api.ukubf.com/api.php/provide/vod',
+    uku: {
+        api: 'https://api.ukuapi88.com/api.php/provide/vod',
         name: 'U酷资源'
     },
     suoni: {
@@ -195,7 +195,8 @@ const API_SITES = {
     },
     hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod',
-        name: '豪华资源'
+        name: '豪华资源',
+        detail: 'https://hhzyapi.com/'
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
@@ -214,14 +215,6 @@ const API_SITES = {
          api: 'https://api.souavzy.vip/api.php/provide/vod',
          name: 'souav资源',
          detail: 'https://hsckzy.vip'
-     },
-     r155: {
-         api: 'https://155api.com',
-         name: '155资源'
-     },
-     lsb: {
-         api: 'https://apilsbzy1.com',
-         name: 'lsb资源'
      },
      huangcang: {
          api: 'https://hsckzy888.com/api.php/provide/vod',
