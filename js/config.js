@@ -109,11 +109,11 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/providedown/vod',
         name: '量子资源'
     },
-    guangsu': {
+    guangsu: {
         api: 'https://api.guangsuapi.com/api.php/provide/vod',
         name: '光速资源'   
     },
-    'taopian': {
+    taopian: {
         api: 'https://taopianapi.com/cjapi/sda/vod',
         name: '淘片资源'
     },
@@ -157,11 +157,11 @@ const API_SITES = {
         api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
         name: '快车资源'
     },
-    'ukubf': {
+    ukubf: {
         api: 'https://api.ukubf.com/api.php/provide/vod',
         name: 'U酷资源'
     },
-    'suoni': {
+    suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod',
         name: '索尼资源'
     },
