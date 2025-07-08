@@ -170,7 +170,7 @@ const API_SITES = {
     huya: {
         api: 'https://www.huyaapi.com/api.php/provide/vod',
         name: '虎牙资源',
-        detail: 'https://huyazy.net'
+        detail: 'https://www.huyaapi.com'
     },
     maota: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
@@ -193,6 +193,10 @@ const API_SITES = {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七资源' 
     },
+    hhzy: {
+        api: 'https://hhzyapi.com/api.php/provide/vod',
+        name: '豪华资源'
+    },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
@@ -206,7 +210,7 @@ const API_SITES = {
          name: '百万资源'
      },
      souav: {
-         api: 'https://api.souavzy.vip',
+         api: 'https://api.souavzy.vip/api.php/provide/vod',
          name: 'souav资源'
      },
      r155: {
@@ -220,13 +224,11 @@ const API_SITES = {
      huangcang: {
          api: 'https://hsckzy.vip',
          name: '黄色仓库',
-         adult: true,
          detail: 'https://hsckzy.vip'
      },
      yutu: {
          api: 'https://yutuzy10.com',
          name: '玉兔资源',
-         adult: true
     },    
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
