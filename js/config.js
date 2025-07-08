@@ -106,12 +106,12 @@ const API_SITES = {
         name: '旺旺短剧'
     },
     lzi: {
-        api: 'https://cj.lziapi.com/api.php/providedown/vod',
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源'
     },
     guangsu: {
         api: 'https://api.guangsuapi.com/api.php/provide/vod',
-        name: '光速资源'   
+        name: '光速资源'
     },
     taopian: {
         api: 'https://taopianapi.com/cjapi/sda/vod',
