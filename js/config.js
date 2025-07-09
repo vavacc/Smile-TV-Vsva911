@@ -21,223 +21,235 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    heimuer: {
+    heimuerwg: {
         api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
+        name: '黑木耳-暗紫服务',
+        detail: 'https://heimuer.tv', 
+    },
+    heimuercn: {
+        api: 'https://json02.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳-紫夜服务',
         detail: 'https://heimuer.tv', 
     },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂资源',
+        name: '电影天堂-紫夜服务',
         detail: 'http://caiji.dyttzyapi.com', 
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
-        name: '如意资源',
+        name: '如意-紫夜服务',
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
-        name: '暴风资源',
+        name: '暴风-紫夜服务',
     },
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
-        name: '天涯资源',
+        name: '天涯影视-紫夜服务',
     },
      xiaomaomi: {
          api: 'http://zy.xmm.hk/api.php/provide/vod',
-         name: '小猫咪资源',
+         name: '小猫咪-紫夜服务',
+         detail: 'http://zy.xmm.hk',
     },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡影视',
+        name: '非凡-紫夜服务',
         detail: 'http://ffzy5.tv', 
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
-        name: '360资源',
+        name: '360-紫夜服务',
+        detail: 'https://360zy.com/', 
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源',
+        name: '卧龙-紫夜服务',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
-        name: '极速资源',
+        name: '极速-紫夜服务',
         detail: 'https://jszyapi.com', 
     },
     dbzy: {
         api: 'https://dbzy.com/api.php/provide/vod',
-        name: '豆瓣资源',
+        name: '豆瓣-紫夜服务',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: '魔爪资源',
+        name: '魔爪-紫夜服务',
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源',
+        name: '魔都-紫夜服务',
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源'
+        name: '最大-紫夜服务'
     },
     yinghua: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源'
+        name: '樱花-紫夜服务'
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源'
+        name: '百度云-紫夜服务',
+        detail: 'https://api.apibdzy.com',
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源'
+        name: '无尽-紫夜服务'
     },
-    wwzy: {
+    wwgw: {
         api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺海外'
+        name: '旺旺-暗紫服务'
     },
-    tyyszy5: {
+    wwcn: {
         api: 'https://ww.tyyszy5.com/api.php/provide/vod',
-        name: '旺旺国内'
+        name: '旺旺-紫夜服务'
     },
     ikunzy: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: '爱坤资源'
+        name: '爱坤-紫夜服务'
     },
     liangzizy: {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
-        name: '量子资源',
+        name: '量子-紫夜服务',
         detail: 'https://lzizy.net'
     },
     taopian: {
         api: 'https://taopianapi.com/cjapi/sda/vod',
-        name: '淘片资源'
+        name: '淘片-紫夜服务'
     },
     hongniuzy2: {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod',
-        name: '红牛资源2号'
+        name: '红牛2-暗紫服务'
     },
     hongniuzy3: {
         api: 'https://www.hongniuzy3.com/api.php/provide/vod',
-        name: '红牛资源3号'
+        name: '红牛3-紫夜服务'
     },
     qilin: {
         api: 'https://www.qilinzyz.com/api.php/provide/vod',
-        name: '麒麟资源'
+        name: '麒麟-紫夜服务',
+        detail: 'https://www.qilinzyz.com'
     },
     subo: {
         api: 'https://subocj.com/api.php/provide/vod',
-        name: '速播资源',
+        name: '速播-紫夜服务',
     },
     huohua: {
         api: 'https://cj.huohua.live/api.php/provide/vod',
-        name: '火花资源'
+        name: '火花-紫夜服务',
+        detail: 'https://cj.huohua.live'
     },
     fczy: {
         api: 'https://api.fczy888.me/api.php/provide/vod',
-        name: '蜂巢资源'
+        name: '蜂巢-紫夜服务'
     },
     zy: {
         api: 'https://zy.hls.one/api.php/provide/vod',
-        name: '虾米资源'
+        name: '虾米-紫夜服务'
     },
     niuniuzy: {
         api: 'https://api.niuniuzy.me/api.php/provide/vod',
-        name: '牛牛资源',
-        detail: 'https://niuniuzy5.com'
+        name: '牛牛-紫夜服务',
+        detail: 'https://api.niuniuzy.me',
     },
     kuaiche: {
         api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
-        name: '快车资源'
+        name: '快车-紫夜服务',
+        detail: 'https://caiji.kuaichezy.org',
     },
-    uku: {
+    youku: {
         api: 'https://api.ukuapi88.com/api.php/provide/vod',
-        name: 'U酷资源'
+        name: '尤库-紫夜服务',
+        detail: 'https://www.ukuzy.com',
     },
     suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod',
-        name: '索尼资源',
+        name: '索尼-紫夜服务',
         detail: 'https://suonizy.net',
     },
     maota: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
-        name: '茅台资源'
+        name: '茅台-紫夜服务'
     },
     fantuan: {
         api: 'https://www.fantuan.tv/api.php/provide/vod',
-        name: '饭团影视'
+        name: '饭团-紫夜服务'
     },
-    lzi: {
+    yingshegc: {
        api: 'https://cj.lziapi.com/api.php/provide/vod',
-       name: '影视工厂'
+       name: '影视工厂-紫夜服务'
     },
     qiqi: {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七七资源'
+        name: '七七-紫夜服务'
     },
     jkun: {
         api: 'https://jkunzyapi.com/api.php/provide/vod',
-        name: 'jkun资源',
+        name: '基库-紫夜服务',
         detail: 'https://jkunzyapi.com',
     },
     souav: {
         api: 'https://api.souavzy.vip/api.php/provide/vod',
-        name: 'souav资源',
-        detail: 'https://hsckzy.vip'
+        name: '搜AV-紫夜服务',
+        detail: 'https://api.souavzy.vip'
     },
     yutu: {
         api: 'https://apiyutu.com/api.php/provide/vod',
-        name: '玉兔资源',
+        name: '玉兔-紫夜服务',
         detail: 'https://yutuzy10.com'
     },
     bwzy: {
         api: 'https://api.bwzyz.com/api.php/provide/vod',
-        name: '百万资源',
+        name: '百万-紫夜服务',
         detail: 'https://api.bwzym3u8.com'
     },
     huangcang: {
         api: 'https://hsckzy888.com/api.php/provide/vod',
-        name: '黄色仓库',
+        name: '黄色仓库-紫夜服务',
         detail: 'https://hsckzy.vip'
     },
     hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod',
-        name: '豪华资源',
+        name: '豪华-紫夜服务',
         detail: 'https://hhzyapi.com',
         adult: true
     },
     xinlang: {
         api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
-        name: '新浪资源',
+        name: '新浪-紫夜服务',
         detail: 'https://www.xinlangzy.com',
         adult: true
     },
     huya: {
         api: 'https://www.huyaapi.com/api.php/provide/vod',
-        name: '虎牙资源',
+        name: '虎牙-紫夜服务',
         detail: 'https://www.huyaapi.com',
         adult: true
     },
     jyzy: {
         api: 'https://jyzyapi.com/provide/vod',
-        name: '金鹰资源',
+        name: '金鹰-紫夜服务',
         detail: 'https://jyzyapi.comm',
         adult: true
     },
     guangsu: {
         api: 'https://api.guangsuapi.com/api.php/provide/vod',
-        name: '光速资源',
+        name: '光速-紫夜服务',
         detail: 'https://www.guangsuzy.com',
         adult: true
     },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: '爱奇艺资源',
+        name: '爱奇艺-紫夜服务',
     },
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源',
+        name: '华为吧-紫夜服务',
         adult: true
     },
     testSource: {
