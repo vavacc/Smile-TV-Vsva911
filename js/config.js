@@ -104,7 +104,7 @@ const API_SITES = {
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源',
-        detail: 'https://lzizy.net'
+        detail: 'https://lzizy.net',
     },
     taopian: {
         api: 'https://taopianapi.com/cjapi/sda/vod',
@@ -128,11 +128,11 @@ const API_SITES = {
     },
     huohua: {
         api: 'https://cj.huohua.live/api.php/provide/vod',
-        name: '火花资源'
+        name: '火花资源',
     },
     fczy: {
         api: 'https://api.fczy888.me/api.php/provide/vod',
-        name: '蜂巢资源'
+        name: '蜂巢资源',
     },
     zy: {
         api: 'https://zy.hls.one/api.php/provide/vod',
@@ -141,7 +141,7 @@ const API_SITES = {
     niuniuzy: {
         api: 'https://api.niuniuzy.me/api.php/provide/vod',
         name: '牛牛资源',
-        detail: 'https://niuniuzy5.com/'
+        detail: 'https://niuniuzy5.com'
     },
     kuaiche: {
         api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
@@ -149,7 +149,7 @@ const API_SITES = {
     },
     uku: {
         api: 'https://api.ukuapi88.com/api.php/provide/vod',
-        name: 'U酷资源'
+        name: 'U酷资源',
     },
     suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod',
@@ -179,27 +179,27 @@ const API_SITES = {
      jkun: {
          api: 'https://jkunzyapi.com/api.php/provide/vod',
          name: 'jkun资源',
-         detail: 'https://jkunzyapi.com'
+         detail: 'https://jkunzyapi.com',
      },
      souav: {
          api: 'https://api.souavzy.vip/api.php/provide/vod',
          name: 'souav资源',
          detail: 'https://hsckzy.vip'
-     },
+     },,
      yutu: {
          api: 'https://apiyutu.com/api.php/provide/vod',
          name: '玉兔资源',
-         detail: 'https://yutuzy10.com'
+         detail: 'https://yutuzy10.com',
     },    
      huangcang: {
          api: 'https://hsckzy888.com/api.php/provide/vod',
          name: '黄色仓库',
-         detail: 'https://hsckzy.vip'
+         detail: 'https://hsckzy.vip',
      },
      bwzy: {
          api: 'https://api.bwzyz.com/api.php/provide/vod',
-         name: '百万资源'.
-         detail: 'https://api.bwzym3u8.com'
+         name: '百万资源',
+         detail: 'https://api.bwzym3u8.com',
      },
     hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod',
