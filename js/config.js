@@ -101,11 +101,11 @@ const API_SITES = {
         api: 'https://ww.tyyszy5.com/api.php/provide/vod',
         name: '旺旺国内'
     },
-    ikun: {
+    ikunzy: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
+        name: '爱坤资源'
     },
-    lzi: {
+    liangzizy: {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '量子资源',
         detail: 'https://lzizy.net'
