@@ -194,16 +194,16 @@ const API_SITES = {
         api: 'https://apiyutu.com/api.php/provide/vod',
         name: '玉兔资源',
         detail: 'https://yutuzy10.com'
-    },    
-    huangcang: {
-        api: 'https://hsckzy888.com/api.php/provide/vod',
-        name: '黄色仓库',
-        detail: 'https://hsckzy.vip'
     },
     bwzy: {
         api: 'https://api.bwzyz.com/api.php/provide/vod',
         name: '百万资源',
         detail: 'https://api.bwzym3u8.com'
+    },
+    huangcang: {
+        api: 'https://hsckzy888.com/api.php/provide/vod',
+        name: '黄色仓库',
+        detail: 'https://hsckzy.vip'
     },
     hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod',
