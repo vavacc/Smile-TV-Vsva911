@@ -95,11 +95,11 @@ const API_SITES = {
     },
     wwzy: {
         api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺短剧国外',
+        name: '旺旺短剧',
     },
     wwzy: {
         api: 'https://ww.tyyszy5.com/api.php/provide/vod',
-        name: '旺旺短剧国内',
+        name: '旺旺短剧',
     },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
@@ -234,10 +234,12 @@ const API_SITES = {
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
+        adult: true
     },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
+        adult: true
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
