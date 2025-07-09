@@ -56,10 +56,6 @@ const API_SITES = {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: 'iqiyi资源',
-    },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
@@ -101,8 +97,8 @@ const API_SITES = {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺海外'
     },
-    wwzy: {
-        api: 'https://wwzy.tv/api.php/provide/vod',
+    tyyszy5: {
+        api: 'https://ww.tyyszy5.com/api.php/provide/vod',
         name: '旺旺国内'
     },
     ikun: {
@@ -234,6 +230,10 @@ const API_SITES = {
         name: '光速资源',
         detail: 'https://www.guangsuzy.com',
         adult: true
+    },
+    iqiyi: {
+        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+        name: '爱奇艺资源',
     },
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
