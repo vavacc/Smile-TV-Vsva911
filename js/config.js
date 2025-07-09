@@ -218,7 +218,7 @@ const API_SITES = {
     jyzy: {
         api: 'https://jyzyapi.com/provide/vod',
         name: '金鹰资源',
-        detail: 'https://jyzyapi.comm'.
+        detail: 'https://jyzyapi.comm',
         adult: true
     },
     guangsu: {
