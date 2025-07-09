@@ -36,6 +36,29 @@ const API_SITES = {
         name: '电影天堂-紫夜',
         detail: 'http://caiji.dyttzyapi.com', 
     },
+    tianya: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯影视-紫夜',
+    },
+        yingshegc: {
+       api: 'https://cj.lziapi.com/api.php/provide/vod',
+       name: '影视工厂-紫夜'
+    },
+     xiaomaomi: {
+         api: 'http://zy.xmm.hk/api.php/provide/vod',
+         name: '小猫咪-紫夜',
+         detail: 'http://zy.xmm.hk',
+    },
+    baiduyu: {
+        api: 'https://api.apibdzy.com/api.php/provide/vod',
+        name: '百度云-紫夜',
+        detail: 'https://api.apibdzy.com',
+    },
+    zhiye360: {
+        api: 'https://360zy.com/api.php/provide/vod',
+        name: '360-紫夜',
+        detail: 'https://360zy.com/', 
+    },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意-紫夜',
@@ -43,25 +66,6 @@ const API_SITES = {
     baofeng: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风-紫夜',
-    },
-    tianya: {
-        api: 'https://tyyszy.com/api.php/provide/vod',
-        name: '天涯影视-紫夜',
-    },
-     xiaomaomi: {
-         api: 'http://zy.xmm.hk/api.php/provide/vod',
-         name: '小猫咪-紫夜',
-         detail: 'http://zy.xmm.hk',
-    },
-    feifang: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡-紫夜',
-        detail: 'http://ffzy5.tv', 
-    },
-    zhiye360: {
-        api: 'https://360zy.com/api.php/provide/vod',
-        name: '360-紫夜',
-        detail: 'https://360zy.com/', 
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
@@ -88,14 +92,14 @@ const API_SITES = {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大-紫夜'
     },
+    feifang: {
+        api: 'http://ffzy5.tv/api.php/provide/vod',
+        name: '非凡-紫夜',
+        detail: 'http://ffzy5.tv', 
+    },
     yinghua: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花-紫夜'
-    },
-    baiduyu: {
-        api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云-紫夜',
-        detail: 'https://api.apibdzy.com',
     },
     wujinzy: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
@@ -121,14 +125,6 @@ const API_SITES = {
     taopian: {
         api: 'https://taopianapi.com/cjapi/sda/vod',
         name: '淘片-紫夜'
-    },
-    hongniu2: {
-        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
-        name: '红牛2-暗紫'
-    },
-    hongniu3: {
-        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
-        name: '红牛3-紫夜'
     },
     qilin: {
         api: 'https://www.qilinzyz.com/api.php/provide/vod',
@@ -180,13 +176,17 @@ const API_SITES = {
         api: 'https://www.fantuan.tv/api.php/provide/vod',
         name: '饭团-紫夜'
     },
-    yingshegc: {
-       api: 'https://cj.lziapi.com/api.php/provide/vod',
-       name: '影视工厂-紫夜'
-    },
     qiqi: {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七-紫夜'
+    },
+    hongniu2: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+        name: '红牛2-暗紫'
+    },
+    hongniu3: {
+        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
+        name: '红牛3-紫夜'
     },
     jikun: {
         api: 'https://jkunzyapi.com/api.php/provide/vod',
