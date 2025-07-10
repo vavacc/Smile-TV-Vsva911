@@ -31,7 +31,7 @@ const API_SITES = {
         name: '黑木耳-紫夜',
         detail: 'https://heimuer.tv', 
     },
-    dyttzy: {
+    dianyangtiantan: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂-紫夜',
         detail: 'http://caiji.dyttzyapi.com', 
@@ -40,7 +40,7 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯影视-紫夜',
     },
-        yingshegc: {
+    yingshegc: {
        api: 'https://cj.lziapi.com/api.php/provide/vod',
        name: '影视工厂-紫夜'
     },
@@ -71,12 +71,12 @@ const API_SITES = {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙-紫夜',
     },
-    jisuzy: {
+    jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速-紫夜',
         detail: 'https://jszyapi.com', 
     },
-    doubany: {
+    douban: {
         api: 'https://dbzy.com/api.php/provide/vod',
         name: '豆瓣-紫夜',
     },
@@ -101,15 +101,15 @@ const API_SITES = {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花-紫夜'
     },
-    wujinzy: {
+    wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽-紫夜'
     },
-    wanwgw: {
+    wanwanHY: {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺-暗紫'
     },
-    wanwcn: {
+    wanwanGN: {
         api: 'https://ww.tyyszy5.com/api.php/provide/vod',
         name: '旺旺-紫夜'
     },
@@ -140,15 +140,15 @@ const API_SITES = {
         name: '火花-紫夜',
         detail: 'https://cj.huohua.live'
     },
-    fczy: {
+    fengchao: {
         api: 'https://api.fczy888.me/api.php/provide/vod',
         name: '蜂巢-紫夜'
     },
-    xiamizy: {
+    xiami: {
         api: 'https://zy.hls.one/api.php/provide/vod',
         name: '虾米-紫夜'
     },
-    niuniuzy: {
+    niuniu: {
         api: 'https://api.niuniuzy.me/api.php/provide/vod',
         name: '牛牛-紫夜',
         detail: 'https://api.niuniuzy.me',
