@@ -78,7 +78,7 @@ const API_SITES = {
     },
     douban: {
         api: 'https://dbzy.com/api.php/provide/vod',
-        name: '豆瓣-紫夜',
+        name: '豆瓣-暗紫',
     },
     douban5: {
         api: 'https://caiji.dbzy5.com/api.php/provide/vod',
@@ -125,11 +125,6 @@ const API_SITES = {
         api: 'https://api.fczy888.me/api.php/provide/vod',
         name: '蜂巢-紫夜'
     },
-    kuaiche: {
-        api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
-        name: '快车-紫夜',
-        detail: 'https://caiji.kuaichezy.org',
-    },
     youku: {
         api: 'https://api.ukuapi88.com/api.php/provide/vod',
         name: '尤库-紫夜',
@@ -159,15 +154,16 @@ const API_SITES = {
         name: '百万-紫夜',
         detail: 'https://api.bwzym3u8.com'
     },
-    kuaibo: {
-        api: 'https://gayapi.com/api.php/provide/vod',
-        name: '快播-紫夜',
-        detail: 'https://www.kbzy1.com'
-    },
     huangseck: {
         api: 'https://hsckzy888.com/api.php/provide/vod',
         name: '凰仓库-紫夜',
         detail: 'https://hsckzy.vip'
+    },
+    kuaibo: {
+        api: 'https://gayapi.com/api.php/provide/vod',
+        name: '快播-紫夜',
+        detail: 'https://www.kbzy1.com',
+        adult: true
     },
     haohua: {
         api: 'https://hhzyapi.com/api.php/provide/vod',
@@ -202,6 +198,12 @@ const API_SITES = {
     taopian: {
         api: 'https://taopianapi.com/cjapi/sda/vod',
         name: '淘片-紫夜',
+        adult: true
+    },
+    kuaiche: {
+        api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
+        name: '快车-紫夜',
+        detail: 'https://caiji.kuaichezy.org',
         adult: true
     },
     feifang: {
@@ -267,6 +269,7 @@ const API_SITES = {
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: '爱奇艺-紫夜服务',
+        adult: true
     },
     huaweiba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
