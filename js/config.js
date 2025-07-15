@@ -78,7 +78,11 @@ const API_SITES = {
     },
     douban: {
         api: 'https://dbzy.com/api.php/provide/vod',
-        name: '豆瓣-紫夜',
+        name: '豆瓣-紫夜',https://caiji.dbzy5.com/api.php/provide/vod
+    },
+    douban5: {
+        api: 'https://caiji.dbzy5.com/api.php/provide/vod',
+        name: '豆瓣5-紫夜',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
@@ -91,15 +95,6 @@ const API_SITES = {
     zuida: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大-紫夜'
-    },
-    feifang: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡-紫夜',
-        detail: 'http://ffzy5.tv', 
-    },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花-紫夜'
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
@@ -122,36 +117,13 @@ const API_SITES = {
         name: '量子-紫夜',
         detail: 'https://lzizy.net'
     },
-    taopian: {
-        api: 'https://taopianapi.com/cjapi/sda/vod',
-        name: '淘片-紫夜'
-    },
-    qilin: {
-        api: 'https://www.qilinzyz.com/api.php/provide/vod',
-        name: '麒麟-紫夜',
-        detail: 'https://www.qilinzyz.com'
-    },
     subo: {
         api: 'https://subocj.com/api.php/provide/vod',
         name: '速播-紫夜',
     },
-    huohua: {
-        api: 'https://cj.huohua.live/api.php/provide/vod',
-        name: '火花-紫夜',
-        detail: 'https://cj.huohua.live'
-    },
     fengchao: {
         api: 'https://api.fczy888.me/api.php/provide/vod',
         name: '蜂巢-紫夜'
-    },
-    xiami: {
-        api: 'https://zy.hls.one/api.php/provide/vod',
-        name: '虾米-紫夜'
-    },
-    niuniu: {
-        api: 'https://api.niuniuzy.me/api.php/provide/vod',
-        name: '牛牛-紫夜',
-        detail: 'https://api.niuniuzy.me',
     },
     kuaiche: {
         api: 'https://caiji.kuaichezy.org/api.php/provide/vod',
@@ -163,30 +135,9 @@ const API_SITES = {
         name: '尤库-紫夜',
         detail: 'https://www.ukuzy.com',
     },
-    suoni: {
-        api: 'https://suoniapi.com/api.php/provide/vod',
-        name: '索尼-紫夜',
-        detail: 'https://suonizy.net',
-    },
     maota: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '茅台-紫夜'
-    },
-    fantuan: {
-        api: 'https://www.fantuan.tv/api.php/provide/vod',
-        name: '饭团-紫夜'
-    },
-    qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七七-紫夜'
-    },
-    hongniu2: {
-        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
-        name: '红牛2-暗紫'
-    },
-    hongniu3: {
-        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
-        name: '红牛3-紫夜'
     },
     jikun: {
         api: 'https://jkunzyapi.com/api.php/provide/vod',
@@ -207,6 +158,11 @@ const API_SITES = {
         api: 'https://api.bwzyz.com/api.php/provide/vod',
         name: '百万-紫夜',
         detail: 'https://api.bwzym3u8.com'
+    },
+    kuaibo: {
+        api: 'https://gayapi.com/api.php/provide/vod',
+        name: '快播-紫夜',
+        detail: 'https://www.kbzy1.com'
     },
     huangseck: {
         api: 'https://hsckzy888.com/api.php/provide/vod',
@@ -241,6 +197,71 @@ const API_SITES = {
         api: 'https://api.guangsuapi.com/api.php/provide/vod',
         name: '光速-紫夜服务',
         detail: 'https://www.guangsuzy.com',
+        adult: true
+    },
+    taopian: {
+        api: 'https://taopianapi.com/cjapi/sda/vod',
+        name: '淘片-紫夜',
+        adult: true
+    },
+    feifang: {
+        api: 'http://ffzy5.tv/api.php/provide/vod',
+        name: '非凡-紫夜',
+        detail: 'http://ffzy5.tv',
+        adult: true
+    },
+    xiami: {
+        api: 'https://zy.hls.one/api.php/provide/vod',
+        name: '虾米-紫夜',
+        adult: true
+    },
+    yinghua: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花-紫夜',
+        adult: true
+    },
+    qilin: {
+        api: 'https://www.qilinzyz.com/api.php/provide/vod',
+        name: '麒麟-紫夜',
+        detail: 'https://www.qilinzyz.com',
+        adult: true
+    },
+    niuniu: {
+        api: 'https://api.niuniuzy.me/api.php/provide/vod',
+        name: '牛牛-紫夜',
+        detail: 'https://api.niuniuzy.me',
+        adult: true
+    },
+    suoni: {
+        api: 'https://suoniapi.com/api.php/provide/vod',
+        name: '索尼-紫夜',
+        detail: 'https://suonizy.net',
+        adult: true
+    },
+    huohua: {
+        api: 'https://cj.huohua.live/api.php/provide/vod',
+        name: '火花-紫夜',
+        detail: 'https://cj.huohua.live',
+        adult: true
+    },
+    fantuan: {
+        api: 'https://www.fantuan.tv/api.php/provide/vod',
+        name: '饭团-紫夜',
+        adult: true
+    },
+    qiqi: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        name: '七七-紫夜',
+        adult: true
+    },
+    hongniu2: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+        name: '红牛2-暗紫',
+        adult: true
+    },
+    hongniu3: {
+        api: 'https://www.hongniuzy3.com/api.php/provide/vod',
+        name: '红牛3-紫夜',
         adult: true
     },
     iqiyi: {
