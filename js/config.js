@@ -82,7 +82,7 @@ const API_SITES = {
     },
     douban5: {
         api: 'https://caiji.dbzy5.com/api.php/provide/vod',
-        name: '豆瓣5-紫夜',
+        name: '豆瓣-紫夜',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
