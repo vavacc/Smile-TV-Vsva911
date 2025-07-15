@@ -42,7 +42,7 @@ const API_SITES = {
     },
     yingshegc: {
        api: 'https://cj.lziapi.com/api.php/provide/vod',
-       name: '影视工厂-紫夜'
+       name: '影视工厂-紫夜',
     },
      xiaomaomi: {
          api: 'http://zy.xmm.hk/api.php/provide/vod',
@@ -78,7 +78,7 @@ const API_SITES = {
     },
     douban: {
         api: 'https://dbzy.com/api.php/provide/vod',
-        name: '豆瓣-紫夜',https://caiji.dbzy5.com/api.php/provide/vod
+        name: '豆瓣-紫夜',
     },
     douban5: {
         api: 'https://caiji.dbzy5.com/api.php/provide/vod',
