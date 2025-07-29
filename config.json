@@ -130,7 +130,7 @@
     },
     "youzi": {
       "api": "https://api.yzzy-api.com/inc/apijson.php",
-      "name": "优质-紫夜",
+      "name": "优质-紫夜"
     },
     "ckzy": {
       "api": "https://ckzy.me/api.php/provide/vod",
@@ -162,11 +162,11 @@
     },
     "baiwang": {
       "api": "https://api.bwzyz.com/api.php/provide/vod",
-      "name": "百万-紫夜",
+      "name": "百万-紫夜"
     },
     "huangseck": {
       "api": "https://hsckzy888.com/api.php/provide/vod",
-      "name": "凰仓库-紫夜"
+      "name": "凰仓库-紫夜",
       "detail": "https://hsckzy.vip"
     }
   }
