@@ -5,6 +5,7 @@ export interface AdminConfig {
     SearchDownstreamMaxPage: number;
     SiteInterfaceCacheTime: number;
     ImageProxy: string;
+    DoubanProxy: string;
   };
   UserConfig: {
     AllowRegister: boolean;
@@ -19,6 +20,13 @@ export interface AdminConfig {
     name: string;
     api: string;
     detail?: string;
+    from: 'config' | 'custom';
+    disabled?: boolean;
+  }[];
+  CustomCategories: {
+    name?: string;
+    type: 'movie' | 'tv';
+    query: string;
     from: 'config' | 'custom';
     disabled?: boolean;
   }[];
