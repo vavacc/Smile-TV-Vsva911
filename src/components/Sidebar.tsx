@@ -149,7 +149,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
         ...prevItems,
         {
           icon: Star,
-          label: '自定义',
+          label: 'VIP-私人定制',
           href: '/douban?type=custom',
         },
       ]);
