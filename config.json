@@ -169,7 +169,7 @@
       "detail": "https://hsckzy.vip"
     }
   },
-  "custom_category": {
+  "custom_category": [
     {
       "name": "科幻",
       "type": "movie",
@@ -181,5 +181,5 @@
       "type": "movie",
       "query": "动作"
     }
-  }
+  ]
 }
