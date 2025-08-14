@@ -221,11 +221,6 @@
     "query": "经典"
   },
   {
-    "name": "恐怖",
-    "type": "movie",
-    "query": "恐怖"
-  },
-  {
     "name": "治愈",
     "type": "movie",
     "query": "治愈"
@@ -248,7 +243,7 @@
   {
     "name": "冷门佳片",
     "type": "movie",
-    "query": "冷门佳片剧"
+    "query": "冷门佳片"
   },
   {
     "name": "豆瓣高分",
