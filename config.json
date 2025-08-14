@@ -169,11 +169,41 @@
       "detail": "https://hsckzy.vip"
     }
   },
-  "custom_category": [
-    {
-      "name": "科幻",
-      "type": "movie",
-      "query": "科幻"
-    }
-  ]
+"custom_category": [
+  {
+    "name": "科幻",
+    "type": "movie",
+    "query": "科幻"
+  },
+  {
+    "name": "动作",
+    "type": "movie",
+    "query": "动作"
+  },
+  {
+    "name": "爱情",
+    "type": "movie",
+    "query": "爱情"
+  },
+  {
+    "name": "恐怖",
+    "type": "movie",
+    "query": "恐怖"
+  },
+  {
+    "name": "剧情",
+    "type": "movie",
+    "query": "剧情"
+  },
+  {
+    "name": "动漫",
+    "type": "movie",
+    "query": "动漫"
+  },
+  {
+    "name": "纪录片",
+    "type": "movie",
+    "query": "纪录片"
+  }
+]
 }
