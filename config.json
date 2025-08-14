@@ -174,12 +174,6 @@
       "name": "科幻",
       "type": "movie",
       "query": "科幻"
-    },
-  "custom_category": {
-    { 
-      "name": "动作",
-      "type": "movie",
-      "query": "动作"
     }
   ]
 }
