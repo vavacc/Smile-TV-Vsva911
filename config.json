@@ -167,18 +167,13 @@
       "api": "https://hsckzy888.com/api.php/provide/vod",
       "name": "凰仓库-紫夜",
       "detail": "https://hsckzy.vip"
-    },
-    "custom_category": [
+    }
+  },
+  "custom_category": [
     {
       "name": "科幻",
       "type": "movie",
       "query": "科幻"
-    },
-    "custom_category": [
-    {
-      "name": "动作",
-      "type": "movie",
-      "query": "动作"
     }
   ]
 }
